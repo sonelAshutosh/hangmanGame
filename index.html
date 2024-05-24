@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="heading">
+            <div id="title">
+                Hangman
+            </div>
+            <div id="life">
+                <div id="heart">❤️</div>
+                <div id="heart">❤️</div>
+                <div id="heart">❤️</div>
+                <div id="heart">❤️</div>
+                <div id="heart">❤️</div>
+            </div>
+        </div>
+        <div id="image">
+            <img src="images/start.png" alt="Start Image">
+        </div>
+        <div id="wordId"></div>
+        <div id="guessChar">Guess a Character</div>
+        <div id="comment">
+            <div id="correct">&nbsp</div>
+            <div id="buttons">
+                <button id="reset" class="btn"> New Word </button>
+                <button id="hint" class="btn"> Hint </button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>
